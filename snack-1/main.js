@@ -1,14 +1,4 @@
-/* L'ultente inserisce due numeri in successione, con due prompt.
-il software stampa il maggiore. */
+/* L'utente inserisce due parole in successione con due prompt.
+Il software stampa la prima parola più corta, poi la parola più lunga */
 
 
-const firstNumber = Number (prompt ("Scrivi un numero [es 1, 2, 3, 4"));
-const secondNumber = Number (prompt ("Scrivine un altro"));
-
-if (firstNumber > secondNumber){
-    console.log(firstNumber);
-    
-} else {
-    console.log(secondNumber);
-    
-}
