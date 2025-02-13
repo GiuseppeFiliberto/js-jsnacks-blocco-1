@@ -11,3 +11,6 @@ if (firstWord.length > secondWord.length){
 else if (firstWord.length < secondWord.length) {
     console.log(`${secondWord} è una parola più lunga di ${firstWord}`);
 }
+else {
+    console.log(`${firstWord} e ${secondWord} hanno la stessa lunghezza`);
+}
