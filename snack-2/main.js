@@ -7,4 +7,7 @@ const secondWord = prompt("Scrivine un'altra");
 
 if (firstWord.length > secondWord.length){
     console.log(`${firstWord} è una parola più lunga di ${secondWord}`);
+} 
+else if (firstWord.length < secondWord.length) {
+    console.log(`${secondWord} è una parola più lunga di ${firstWord}`);
 }
